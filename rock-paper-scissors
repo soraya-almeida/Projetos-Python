@@ -26,3 +26,9 @@ while player_wins < 2 and computer_wins < 2:
     print("Computer won")
   else:
     print("It's a tie")
+
+  print(f"Current Score - Player: {player_wins}, Computer: {computer_wins}")
+  if player_wins > computer_wins:
+    print("Conglatulations! You won.")
+  else:
+    print("Computer won!")
